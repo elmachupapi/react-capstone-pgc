@@ -1,9 +1,7 @@
 /* App.css */
 .app-container {
   height: 100vh;
-  display: flex;
-  position: relative; /* Needed for absolute positioning of the pseudo-element */
-  overflow: hidden; /* Ensures the pseudo-element does not overflow the container */
+  overflow: hidden;
 }
 
 .app-container::before {
@@ -23,5 +21,11 @@
 
 .main-content {
   flex-grow: 1;
-  padding: 16px; /* Adjust padding as needed */
+  padding: 16px; /* Set padding to 0 to remove extra space */
+  margin: 0;  /* Ensure no margins are applied */
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
 }

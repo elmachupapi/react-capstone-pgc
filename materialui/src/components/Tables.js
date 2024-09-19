@@ -49,7 +49,7 @@ const InventoryTable = () => {
   return (
     <Box sx={{ marginTop: '30px' }}>
       {/* Table with data */}
-      <TableContainer component={Paper}>
+      <TableContainer component={Paper} sx={{ width: '100%' }}>
         <Table sx={{ minWidth: 650 }} aria-label="inventory table">
           <TableHead>
             <TableRow sx={{ backgroundColor: '#464646' }}>

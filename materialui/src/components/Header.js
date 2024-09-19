@@ -20,7 +20,7 @@ const Header = () => {
                     <Typography variant="h3" sx={{ fontWeight: 'bold' }}>
                         OVERALL <Typography variant="h3" component="span" sx={{ fontWeight: 'bold' }}>Inventory</Typography>
                     </Typography>
-                    <Box sx={{ display: 'flex', alignItems: 'center', gap: 1, mt: 1 }}>
+                    <Box sx={{ display: 'flex', alignItems: 'center', gap: 1, mt: 3 }}>
                         <TextField
                             variant="outlined"
                             placeholder="Search..."
@@ -46,7 +46,7 @@ const Header = () => {
                         <Avatar alt="Username" src="/mnt/data/image.png" /> {/* Adjust the src to the correct path */}
                         <Typography>Username</Typography>
                     </Box>
-                    <Button variant="contained" color="success" sx={{ mt: 1, width: '180px'}} onClick={handleOpen}>
+                    <Button variant="contained" color="success" sx={{ mt: 3, width: '180px'}} onClick={handleOpen}>
                         Add item
                     </Button>
                 </Box>
